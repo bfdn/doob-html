@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'WorkSans-Regular';
+    src: url("../fonts/WorkSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'WorkSans-SemiBold';
+    src: url("../fonts/WorkSans-SemiBold.ttf");
+}
+
+
+$max-width: 1170px;
+$gap: 30px;
+$gutter: 30px;
+$border-radius: 3px;
+
+$font-size: 14px;
+
+$font-regular: 'WorkSans-Regular', sans-serif;
+$font-semibold: 'WorkSans-Semibold', sans-serif;
+
+
+
+
+$color-black: #000000;
+$color-white: #ffffff;
+$color-blue: #314584;
+$color-gray: #6e757a;
+$color-red: #ff3946;
+$color-red2: #ff4359;

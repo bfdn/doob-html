@@ -1,0 +1,7 @@
+@function pxtoem($value) {
+    @return ($value / $font-size)+em;
+}
+
+@function pttoem($value) {
+    @return ($value / 12pt)+em;
+}

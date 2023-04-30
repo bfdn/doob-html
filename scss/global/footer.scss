@@ -1,0 +1,64 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $color-blue;
+    margin-top: pxtoem(70px);
+    color: $color-white;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__logo {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    &__slogan {
+        color: $color-red;
+        font-size: pxtoem(48px);
+        font-family: $font-semibold;
+        text-align: center;
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        //align-items: center;
+        row-gap: pxtoem(10px);
+        margin-top: pxtoem(40px);
+
+        @include mq('tablet') {
+            flex-direction: row;
+            justify-content: space-between;
+            column-gap: pxtoem(10px);
+            margin-top: pxtoem(20px);
+        }
+
+        &-item {}
+
+        &-link {}
+    }
+
+    &__copy {
+        margin-top: pxtoem(25px);
+    }
+
+    &__social {
+        margin-top: pxtoem(25px);
+
+        &-link {
+            margin-left: 30px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}
